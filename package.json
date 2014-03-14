@@ -1,6 +1,6 @@
 {
   "name": "gntr",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "ES6 generator for tree traversal.",
   "main": "index.js",
   "scripts": {
