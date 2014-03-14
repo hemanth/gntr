@@ -1,0 +1,26 @@
+{
+  "name": "gntr",
+  "version": "0.1.0",
+  "description": "ES6 generator for tree traversal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemanth/node-gntr.git"
+  },
+  "keywords": [
+    "ES6",
+    "generators",
+    "generator",
+    "tree",
+    "traversal"
+  ],
+  "author": "Hemanth.HM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemanth/node-gntr/issues"
+  },
+  "homepage": "https://github.com/hemanth/node-gntr"
+}
