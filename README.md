@@ -11,7 +11,6 @@ $ npm install gntr
 
 ```
 
-```
 ## Example:
 
 ```js
