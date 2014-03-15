@@ -15,40 +15,24 @@ var tree = function tree(list) {
 
 var inorder = function* inorder(node) {
   if (node) {
-    for (var value of inorder(node.left)) {
-      yield value;
-    }
+    yield* inorder(node.left);
     yield node.label;
-    for (var value of inorder(node.right)) {
-      yield value;
-    }
+    yield* inorder(node.right);
   }
 }
 
 var preorder = function* preorder(node) {
   if (node) {
     yield node.label;
-    
-    for (var value of preorder(node.left)) {
-      yield value;
-    }
- 
-    for (var value of preorder(node.right)) {
-      yield value;
-    }
+    yield* preorder(node.left);
+    yield* preorder(node.right);
   }
 }
 
 var postorder = function* postorder(node) {
   if (node) {
-    for (var value of postorder(node.left)) {
-      yield value;
-    }
-    
-    for (var value of postorder(node.right)) {
-      yield value;
-    }
-   
+    yield* postorder(node.left);
+    yield* postorder(node.right);
     yield node.label;
   }
 }
